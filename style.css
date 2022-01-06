@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Bakbak+One&family=Courgette&family=DM+Serif+Display&family=Kanit:wght@200&family=Libre+Baskerville:wght@700&family=Open+Sans:ital,wght@0,300;1,300&family=Oswald:wght@200&family=Outfit:wght@200;400&family=PT+Serif:wght@700&family=Playfair+Display+SC&family=Roboto+Slab:wght@400;500&family=Roboto:wght@300&family=Shippori+Antique+B1&family=Ubuntu+Mono&family=Yanone+Kaffeesatz:wght@300&family=Yellowtail&display=swap');
+/* reset padding and margin */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #ba95b9;
+}
+.cosmetics{
+    padding: 10px;
+}
+
+.cosmetics h2{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    padding: 10px;
+    margin-bottom:10px;
+    font-weight: bold;
+}
+
+.cosmetics-itm,.household-itm{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin:5px;
+}
+
+.cosmetics-itm p ,.household-itm p{
+    margin: 10px 0px;
+    font-size:16px;
+}
+
+.cosmetics-itm-cont,.household-cont{
+    display: flex;
+}
+
+button{
+    position: relative;
+    overflow: hidden;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 5s;
+    margin: 5px 0px;
+}
+
+.add{
+    background-color:green;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+.remove{
+    background-color: red;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+.Household{
+    padding: 10px;
+}
+
+.Household h2{
+    background-color: rgb(54, 54, 54);
+    color: white;
+    padding: 10px;
+    margin-bottom:10px;
+    font-weight: bold;
+}
